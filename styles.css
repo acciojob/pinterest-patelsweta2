@@ -1,1 +1,27 @@
 /*  your css code here. If applicable */
+body {
+	margin: 0;
+	font-family: Arial, sans-serif;
+}
+
+.hero {
+	display: flex;
+	justify-content:center;
+	align-items:center;
+}
+.hero-image {
+	height: 200px;
+	width:350px;
+	object-fit:cover;
+}
+
+.col-2{
+	height: 200px;
+	width: 350px;
+	justify-content:center;
+	align-items: center;
+}
+.explore-button {
+	padding: 10px;
+	
+}
